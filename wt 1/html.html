@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PENTEX - Camera Enthusiasts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #040303; 
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items:center ;
+      padding: 10px 20px;
+      border: 1px solid #b5a8a8;
+      background-image: url("ccc5a94b-6b88-4746-b4bc-9917b8d0a23d.jpg"); 
+      background-size: cover;
+      background-position: center; 
+      color: rgb(214, 34, 34); 
+    }
+    header h1 {
+      margin: 10;
+      font-size: 2.5rem;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: rgb(184, 172, 172); 
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .main-content {
+      display: flex;
+      flex: 1;
+      margin: 10px;
+      background color: #000; 
+      background-size: cover; 
+      background-position: center; 
+      padding: 20px; 
+      border: 1px solid #ccc; 
+    }
+    .left-content {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+    }
+    section {
+      background-color: transparent;
+      padding: 20px;
+      border: 1px solid #a39e9e;
+      margin-bottom: 10px;
+      color: white; 
+    }
+    article {
+      background-color: transparent; 
+      padding: 10px;
+      border: 1px solid #b3abab;
+      margin-bottom: 10px;
+      color: white; 
+    }
+    aside {
+  flex: 1;
+  background-color: #ddd; 
+  padding: 20px;
+  border: 1px solid #0a0a0a;
+  margin-left: 10px;
+  color: rgb(8, 7, 7); 
+}
+
+aside table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 10px; 
+}
+
+aside th, 
+aside td {
+  border: 1px solid #ddd; 
+  padding: 10px; 
+  text-align: left; 
+  color: rgb(18, 17, 17); 
+}
+
+aside th {
+  background-color: #c7bdbd; 
+  font-weight: bold;
+}
+
+aside tr:nth-child(even) {
+  background-color: rgba(3, 3, 3, 0.1); 
+}
+
+aside tr:hover {
+  background-color: rgba(16, 7, 7, 0.2); 
+  transition: 0.3s;
+}
+
+    footer {
+      background-color: #333; 
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: auto;
+    }
+    h2, h3 {
+      color: rgba(246, 12, 12, 0.347); 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PENTEX</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Cameras</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <div class="left-content">
+      <section>
+        <h2>Welcome to PENTEX</h2>
+        <p>Your ultimate destination for everything related to cameras, photography, and recordings. Whether you're a professional photographer or a hobbyist, we have the tools and tips to help you capture the perfect shot.</p>
+      </section>
+      <article>
+        <h2>Top 5 Cameras for 2023</h2>
+        <p>Here are the top 5 cameras for 2023 that you should consider for your photography needs:</p>
+        <ol>
+          <li><strong>Sony Alpha 7 IV</strong> - Best for professionals.</li>
+          <li><strong>Canon EOS R5</strong> - Excellent for video and photo.</li>
+          <li><strong>Nikon Z9</strong> - Perfect for wildlife photography.</li>
+          <li><strong>Fujifilm X-T5</strong> - Great for travel photography.</li>
+          <li><strong>Panasonic Lumix GH6</strong> - Ideal for videographers.</li>
+        </ol>
+      </article>
+      <article>
+        <h2>Tips for Better Recordings</h2>
+        <p>Recording high-quality videos requires more than just a good camera. Here are some tips to improve your recordings:</p>
+        <ul>
+          <li>Use a tripod to stabilize your camera.</li>
+          <li>Ensure proper lighting to avoid grainy footage.</li>
+          <li>Use an external microphone for better audio quality.</li>
+          <li>Experiment with different angles and perspectives.</li>
+          <li>Edit your recordings to remove unnecessary parts.</li>
+        </ul>
+      </article>
+    </div>
+    <aside>
+      <h3>Popular Accessories</h3>
+      <p>Enhance your photography experience with these must-have accessories:</p>
+      <ul>
+        <li>Camera Lenses (Wide-angle, Telephoto, Macro)</li>
+        <li>Tripods and Monopods</li>
+        <li>External Flashes</li>
+        <li>Memory Cards (High-speed, Large capacity)</li>
+        <li>Camera Bags and Cases</li>
+      </ul>
+    
+      <h3>Upcoming Events</h3>
+      <table border="1">
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>Photography Workshop</td>
+          <td>October 15, 2023</td>
+        </tr>
+        <tr>
+          <td>Camera Expo 2023</td>
+          <td>November 10, 2023</td>
+        </tr>
+        <tr>
+          <td>Photo Walk</td>
+          <td>December 5, 2023</td>
+        </tr>
+      </table>
+    </aside>
+    
+  </div>
+
+  <footer>
+    <p>&copy; 2023 PENTEX. All rights reserved.</p>
+  </footer>
+</body>
+</html>
