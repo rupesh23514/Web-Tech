@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PENTEX - Camera Enthusiasts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <style>
+    body {
+      background-color: #b53535;
+      color: white;
+    }
+    header {
+      background-image: url("ccc5a94b-6b88-4746-b4bc-9917b8d0a23d.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    aside {
+      background-color: #ddd;
+      color: rgb(187, 81, 81);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+    }
+    .cart-icon {
+      position: relative;
+      font-size: 1.5rem;
+    }
+    .cart-badge {
+      position: absolute;
+      top: -5px;
+      right: -10px;
+      background: red;
+      color: white;
+      font-size: 0.8rem;
+      border-radius: 50%;
+      padding: 3px 6px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PENTEX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Cameras</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link cart-icon" href="cal.html">
+              <i class="bi bi-cart"></i>
+              <span class="cart-badge" id="cartCount">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-lg-9">
+        <section class="card mb-3 bg-transparent border-light">
+          <div class="card-body">
+            <h2 class="card-title">Welcome to PENTEX</h2>
+            <p class="card-text">Your ultimate destination for everything related to cameras, photography, and recordings...</p>
+          </div>
+        </section>
+        <article class="card mb-3 bg-transparent border-light">
+          <div class="card-body">
+            <h2 class="card-title">Top 5 Cameras for 2023</h2>
+            <ol>
+              <li><strong>Sony Alpha 7 IV</strong> - Best for professionals.</li>
+              <li><strong>Canon EOS R5</strong> - Excellent for video and photo.</li>
+              <li><strong>Nikon Z9</strong> - Perfect for wildlife photography.</li>
+              <li><strong>Fujifilm X-T5</strong> - Great for travel photography.</li>
+              <li><strong>Panasonic Lumix GH6</strong> - Ideal for videographers.</li>
+            </ol>
+          </div>
+        </article>
+        <article class="card mb-3 bg-transparent border-light">
+          <div class="card-body">
+            <h2 class="card-title">Tips for Better Recordings</h2>
+            <ul>
+              <li>Use a tripod to stabilize your camera.</li>
+              <li>Ensure proper lighting to avoid grainy footage.</li>
+              <li>Use an external microphone for better audio quality.</li>
+              <li>Experiment with different angles and perspectives.</li>
+              <li>Edit your recordings to remove unnecessary parts.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <aside class="card">
+          <div class="card-body">
+            <h3 class="card-title">Popular Accessories</h3>
+            <ul>
+              <li>Camera Lenses (Wide-angle, Telephoto, Macro)</li>
+              <li>Tripods and Monopods</li>
+              <li>External Flashes</li>
+              <li>Memory Cards (High-speed, Large capacity)</li>
+              <li>Camera Bags and Cases</li>
+            </ul>
+            <h3 class="card-title">Upcoming Events</h3>
+            <table class="table table-bordered">
+              <tr>
+                <th>Event</th>
+                <th>Date</th>
+              </tr>
+              <tr>
+                <td>Photography Workshop</td>
+                <td>October 15, 2023</td>
+              </tr>
+              <tr>
+                <td>Camera Expo 2023</td>
+                <td>November 10, 2023</td>
+              </tr>
+              <tr>
+                <td>Photo Walk</td>
+                <td>December 5, 2023</td>
+              </tr>
+            </table>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 PENTEX. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
